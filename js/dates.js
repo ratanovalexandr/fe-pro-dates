@@ -32,7 +32,7 @@ function getDay(date, lang) {
 function formatTime(date) {
   // return date.toLocaleTimeString('en-GB').slice(0, -3);
 
-  return ` ${date.getHours().toString().padStart(2, '0')}:${date
+  return `${date.getHours().toString().padStart(2, '0')}:${date
     .getMinutes()
     .toString()
     .padStart(2, '0')}`;
